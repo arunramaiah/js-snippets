@@ -1,0 +1,16 @@
+const bob = {
+    first: 'bob',
+    last: 'sanders',
+    city: 'chicago',
+    siblings: {
+        sister: 'jane',
+    },
+};
+
+// const firstName = bob.first;
+// const lastName = bob.last;
+// const sister = bob.siblings.sister;
+
+const { last:surname, first, city, siblings: {sister: enemy} } =  bob;
+//const { sister } = siblings;
+console.log(surname, first, city, enemy);

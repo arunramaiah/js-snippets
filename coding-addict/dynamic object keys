@@ -1,0 +1,20 @@
+//square bracket notation
+const person = {
+    'name' :'Bob'
+}
+
+const items = {
+    'featured-items': ['item1', 'item2']
+};
+
+console.log(items['featured-items']);
+console.log(person['name'])
+
+let appState = 'loading';
+appState = 'error'
+const keyName = 'computer';
+const app = {
+    [appState]: true
+}
+app[keyName] = 'apple';
+console.log(app)
