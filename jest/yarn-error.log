@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn test
+
+PATH: 
+  /Users/arun/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arun/apache-maven-3.6.3/bin:/Applications/VMware Fusion.app/Contents/Public
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/arun/work/learning/jest/package.json: Unexpected token { in JSON at position 52
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "jest": "^29.2.2"
+    },
+  {
+    "scripts": {
+      "test": "jest"
+    }
+  },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
